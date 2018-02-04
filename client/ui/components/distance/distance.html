@@ -1,0 +1,16 @@
+<template name="distanceList">
+    <table class="table">
+        {{#each distances}}
+            {{> distance}}
+        {{/each}}
+    </table>
+</template>
+
+<template name="distance">
+        <tr class="personRow">
+          <td>{{ metres }}</td>
+          <td>toto</td>
+          <td><button class="removePerson">Supprimer</button></td>
+        </tr>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+      </template>
